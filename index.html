@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <i class="fas fa-paper-plane"></i>
+            <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" id="contact-name" onkeyup="validateName()">
+                <span id="name-error">Name is required</span>
+            </div>
+
+            <div class="input-group">
+                <label>Phone No.</label>
+                <input type="text" placeholder="Enter your phone no.">
+                <span id="phone-error">Phone No. is required</span>
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input type="text" placeholder="Enter your email">
+                <span id="email-error">Email is required</span>
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" placeholder="Enter your password">
+                <span id="pass">password is required</span>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
